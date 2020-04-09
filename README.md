@@ -1,8 +1,8 @@
 # Robot-Controller-Architecture
-A main module that runs the program
-A state module that handles the robot states
-A driver module that enables the activation of robot functions
-A communication module that enables receiving commands and reporting results and statuses to a remote host.
+## A main module that runs the program
+## A state module that handles the robot states
+## A driver module that enables the activation of robot functions
+## A communication module that enables receiving commands and reporting results and statuses to a remote host.
 
 ## IDE 
    PyCharm
