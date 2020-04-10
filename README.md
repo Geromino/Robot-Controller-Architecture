@@ -6,8 +6,8 @@
 
 ## IDE 
    PyCharm
-	 
-	
+   Python 3.8
+
 		
 ### Proposole solution
     robot_comm  class ( which represent the server side )
