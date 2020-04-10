@@ -23,3 +23,10 @@ class irobot(robot):
 
     def ir(self):
         print('LED Luminous is Mah')
+
+    def temperture(self):
+        print("the temperature  is ")
+
+    def status_robot_devices_and_sensors(self):
+        self.ir()
+        self.temperture()

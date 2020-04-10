@@ -10,16 +10,16 @@ class RobotComm:
         self.robotname = robot_name
         self.rorobottype = robot_type
         self.robotspeed = robot_speed
-        self.work = airobot.irobot(self.robotname,self.rorobottype,self.robotspeed)
+        self.work = airobot.irobot(self.robotname, self.rorobottype, self.robotspeed)
 
     def details_server_param(self):
-        print("robot server begin " + self.ip_address, self.port)
+        print("Robot communication  successfully establish " + self.ip_address, self.port)
 
     async def Robot_Mgmt_protocol(self, websocket, path):
         async for message in websocket:
             print(f"< {message}")
 
-            greeting = f"Hello {message}!"
+            greeting = f"Robot response  {message}!"
 
             await websocket.send(greeting)
             print(f"> {greeting}")
@@ -35,5 +35,5 @@ class RobotComm:
 
     def robot_status(self, robot_msg):
         switcher = {
-            'ir': self.work.ir()
+            'status': self.work.status_robot_devices_and_sensors()
         }

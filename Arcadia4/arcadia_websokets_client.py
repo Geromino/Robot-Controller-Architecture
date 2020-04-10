@@ -6,7 +6,7 @@ async def hello():
     uri = "ws://localhost:8765"
     while True:
         async with websockets.connect(uri) as websocket:
-            name = input("What's your name? ")
+            name = input("Choose robot operation ?")
 
             await websocket.send(name)
             print(f"> {name}")
