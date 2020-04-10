@@ -15,8 +15,8 @@
     robot state machine  is function in robot_comm which will handling all messagr from client 
 
 ## Getting Started
-open powershell in  windows  and run ./robot_operative.py 
-open powershell in  windows  and run ./arcadia_websokets_client.py enter  status command 
+### open powershell in  windows  and run ./robot_operative.py 
+### open powershell in  windows  and run ./arcadia_websokets_client.py enter command  "status" 
 ## Example result 
 ![](/images/view_wesokets.PNG)
 ## Notes
