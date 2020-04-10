@@ -9,8 +9,8 @@
 	and statuses to a remote host.
 
 ## IDE and Complier
-	### PyCharm
-	### Python 3.8
+	a) PyCharm
+	b) Python 3.8
 
 		
 ### Proposole solution
