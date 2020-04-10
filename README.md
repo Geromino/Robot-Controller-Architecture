@@ -17,7 +17,7 @@
 ## Getting Started
 ### open powershell in  windows  and run ./robot_operative.py 
 ### open powershell in  windows  and run ./arcadia_websokets_client.py enter command  "status" 
-## Example result 
+# Example result 
 ![](/images/view_wesokets.PNG)
 ## Notes
  (*)  when running websokets  under class there is error  after certain time  needed to  fix 
